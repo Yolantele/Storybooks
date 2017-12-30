@@ -1,0 +1,23 @@
+{
+  "name": "udemy",
+  "version": "1.0.0",
+  "description": "app to share public or private stories",
+  "main": "index.js",
+  "scripts": {
+    "start": "app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yolantele/Storybooks.git"
+  },
+  "author": "Jolanta Jasiulionyte",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yolantele/Storybooks/issues"
+  },
+  "homepage": "https://github.com/Yolantele/Storybooks#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongoose": "^5.0.0-rc0"
+  }
+}
