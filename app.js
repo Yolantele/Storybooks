@@ -12,7 +12,7 @@ require('./config/passport')(passport);
 // Load routes
 var auth = require('./routes/auth');
 
-
+ 
 var app = express();
 
 app.get('/', function(req, res){
