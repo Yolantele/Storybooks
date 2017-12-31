@@ -17,6 +17,9 @@ var UserSchema = new Schema({
   lastName: {
     type:String,
   },
+  gender: {
+    type: String,
+  },
   image: {
     type:String,
   }

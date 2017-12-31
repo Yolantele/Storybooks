@@ -4,9 +4,11 @@ var passport = require('passport');
 
 // ---- MIDDLEWARE setup ----
 
+// Load User model
+require('./models/User');
+
 // Passport config:
 require('./config/passport')(passport);
-
 
 // Load routes
 var auth = require('./routes/auth');
