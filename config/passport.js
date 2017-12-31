@@ -16,7 +16,6 @@ module.exports = function (passport){
       // console.log(accessToken);
       // console.log(profile);
       var image = profile.photos[0].value.substring(0, profile.photos[0].value.indexOf('?'));
-      console.log(image);
 
       var newUser = {
         googleID: profile.id,
@@ -40,4 +39,14 @@ module.exports = function (passport){
       });
     })
   );
+
+  passport.serializeUser(function(user, done){
+    done(null, user.id);
+  });
+
+  passport.deserializeUser(function(id, done){
+    User.findById(id).then(function(user){
+      done(null, user);
+    });
+  });
 };
