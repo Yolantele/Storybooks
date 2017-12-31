@@ -4,7 +4,9 @@
   "description": "app to create public or private stories, Users connected to google account",
   "main": "app.js",
   "dependencies": {
+    "cookie-parser": "^1.4.3",
     "express": "^4.16.2",
+    "express-session": "^1.15.6",
     "mongoose": "^5.0.0-rc0",
     "nodemon": "^1.14.6",
     "passport": "^0.4.0",
