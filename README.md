@@ -10,3 +10,5 @@ To run the application:
 2. in the command line run ``` npm install ```
 3. run ```nodemon```
 4. visit http://localhost:5000/
+
+(Reusable  BACKEND code to support Meanstack and/or React using Google Authentication)
